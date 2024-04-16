@@ -11,17 +11,17 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/createNewUser.png"
+                src="/images/about/createNewUser.webp"
                 alt="about image"
                 fill
                 className="drop-shadow-three rounded-xl"
               />
-              <Image
+              {/* <Image
                 src="/images/about/about-image-2-dark.svg"
                 alt="about image"
                 fill
                 className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
-              />
+              /> */}
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">

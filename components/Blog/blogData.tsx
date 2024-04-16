@@ -14,6 +14,7 @@ const blogData: Blog[] = [
     },
     tags: ["creative"],
     publishDate: "2024",
+    href: "https://medium.com/@avinash.chopra.18/unlock-exclusive-research-efficiency-limited-access-to-our-revolutionary-platform-b22b30f894bb",
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ const blogData: Blog[] = [
     },
     tags: ["computer"],
     publishDate: "2024",
+    href: "https://medium.com/@avinash.chopra.18/fostering-a-community-of-innovation-why-researchers-love-our-platform-0204a88d414a",
   },
   {
     id: 3,
@@ -42,6 +44,7 @@ const blogData: Blog[] = [
     },
     tags: ["design"],
     publishDate: "2024",
+    href: "https://medium.com/@avinash.chopra.18/maximizing-success-the-strategic-advantage-of-our-research-management-platform-563073f6303e",
   },
 ];
 export default blogData;

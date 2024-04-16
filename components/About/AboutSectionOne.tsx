@@ -57,7 +57,7 @@ const AboutSectionOne = () => {
                 <div className="flex space-between">
                   <div className="flex-auto">
                     <Image
-                      src="/images/about/alltasks.png"
+                      src="/images/about/alltasks.webp"
                       alt="about image"
                       width={0}
                       height={0}
@@ -66,7 +66,7 @@ const AboutSectionOne = () => {
                       className="drop-shadow-three rounded-xl"
                     />
                     <Image
-                      src="/images/about/ptasks.png"
+                      src="/images/about/ptasks.webp"
                       alt="about image"
                       width={0}
                       height={0}
@@ -77,7 +77,7 @@ const AboutSectionOne = () => {
                   </div>
                   <div className="flex-auto">
                     <Image
-                      src="/images/about/tasksp.png"
+                      src="/images/about/tasksp.webp"
                       alt="about image"
                       width={0}
                       height={0}
@@ -86,7 +86,7 @@ const AboutSectionOne = () => {
                       className="drop-shadow-three rounded-xl"
                     />
                     <Image
-                      src="/images/about/alltasks.png"
+                      src="/images/about/alltasks.webp"
                       alt="about image"
                       width={0}
                       height={0}
@@ -97,7 +97,7 @@ const AboutSectionOne = () => {
                   </div>
                 </div>
                 <Image
-                  src="/images/about/filter.png"
+                  src="/images/about/filter.webp"
                   alt="about image"
                   width={0}
                   height={0}
@@ -106,7 +106,7 @@ const AboutSectionOne = () => {
                   className="drop-shadow-three rounded-xl w-full mt-2"
                 />
                 <Image
-                  src="/images/about/doc.png"
+                  src="/images/about/doc.webp"
                   alt="about image"
                   width={0}
                   height={0}
