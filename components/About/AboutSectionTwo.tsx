@@ -16,12 +16,12 @@ const AboutSectionTwo = () => {
                 fill
                 className="drop-shadow-three rounded-xl"
               />
-              {/* <Image
+              <Image
                 src="/images/about/about-image-2-dark.svg"
                 alt="about image"
                 fill
                 className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
-              /> */}
+              />
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
@@ -30,15 +30,15 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Pioneering the Future of Research
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                As trailblazers in the field, we offer the most advanced solutions, setting the standard for the future of research excellence.
+                <p className="text-base leading-relaxed  font-[340] sm:text-lg sm:leading-relaxed">
+                Our team is continuously innovating, ensuring Knowledge Link not only meets but exceeds the evolving needs of researchers worldwide. With Knowledge Link, you’re not just adopting a tool; you’re joining a community dedicated to the future of research.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Innovation Unleashed, Challenges Conquered
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base leading-relaxed  font-[340] sm:text-lg sm:leading-relaxed">
                   Unleash innovation with us as your ally. Our solution is designed to conquer challenges, ensuring your research endeavors reach new heights.
                 </p>
               </div>
@@ -46,7 +46,7 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Your Partner in Progress
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="text-base leading-relaxed  font-[340] sm:text-lg sm:leading-relaxed">
                   We have more than a solution; we have re your dedicated partner. Choose us for unwavering support and the best-in-class solution to propel your research forward.
                 </p>
               </div>

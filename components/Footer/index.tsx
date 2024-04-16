@@ -13,30 +13,14 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
-                  {/* <Image
-                    src="/images/logo/logo-2.svg"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  <Image
-                    src="/images/logo/logo.svg"
-                    alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  /> */}
-                </Link>
-                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
+                <p className="font-[350] mb-9 text-base leading-relaxed  font-[340]">
                   Empowering innovation, we are your dedicated partner in workflows excellence. Seamlessly advancing knowledge, one breakthrough at a time. Join us on the journey of discovery.
                 </p>
                 <div className="flex items-center">
                   {/* <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="font-[350] mr-6  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
                       width="9"
@@ -50,7 +34,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="font-[350] mr-6  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
                       width="19"
@@ -64,7 +48,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="font-[350] mr-6  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
                       width="18"
@@ -78,7 +62,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="font-[350]  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                   >
                     <svg
                       width="17"
@@ -102,25 +86,25 @@ const Footer = () => {
                   <li>
                     <a
                       href="/blogs"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      sinchainfamily@gmail.com
+                      info@digitalworkflow.cloud
                     </a>
                   </li>
                   <li>
                     <a
                       href="/pricing"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      +91-XXXXXXXX
+                      +91-7792871948
                     </a>
                   </li>
                   <li>
                     <a
                       href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Address:- djbcd,e kc wejc, jaipur
+                      Address:- 5th Main Line, HSR layout, Banglore, India
                     </a>
                   </li>
                 </ul>
@@ -136,7 +120,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       TOS
                     </a>
@@ -144,7 +128,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Privacy Policy
                     </a>
@@ -152,7 +136,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Refund Policy
                     </a>
@@ -167,18 +151,18 @@ const Footer = () => {
                   Support & Help
                 </h2>
                 <ul>
-                  <li>
+                  {/* <li>
                     <a
-                      href="/contact"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      href="/about"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Open Support Ticket
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      href="/about"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Terms of Use
                     </a>
@@ -186,7 +170,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="font-[350] mb-4 inline-block text-base  font-[340] duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       About
                     </a>
@@ -198,8 +182,8 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
-            <p className="text-center text-base text-body-color dark:text-white">
-              Copyright © RkPxl 2021-2023
+            <p className="text-center text-base  font-[340] dark:text-white">
+              Copyright © RkPxl 2021-2024
             </p>
           </div>
         </div>

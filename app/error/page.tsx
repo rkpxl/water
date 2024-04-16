@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Error Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Error Page for Startup Nextjs Template",
+  title: "Oops! Something Went Wrong",
+  description: "Encountered an error? We're on it. Navigate back to Digital Workflow’s homepage or contact us for assistance. Let’s get you back on track.",
   // other metadata
 };
 
@@ -144,7 +144,7 @@ const ErrorPage = () => {
                 <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
                   Sorry, the page can’t be found
                 </h3>
-                <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                <p className="mb-10 text-base font-medium leading-relaxed  font-[340] sm:text-lg sm:leading-relaxed">
                   The page you were looking for appears to have been moved,
                   deleted or does not exist.
                 </p>

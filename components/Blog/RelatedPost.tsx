@@ -28,7 +28,7 @@ const RelatedPost = ({
             {title}
           </Link>
         </h5>
-        <p className="text-xs font-medium text-body-color">{date}</p>
+        <p className="text-xs font-medium  font-[340]">{date}</p>
       </div>
     </div>
   );

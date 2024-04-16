@@ -3,45 +3,45 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Unlock Exclusive Research Efficiency: Limited Access to Our Revolutionary Platform",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Discover unparalleled efficiency in research management with exclusive access to our platform. Revolutionize your work with cutting-edge technology designed for seamless collaboration and insightful analytics. Unlock innovation today.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Avinash chopra",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "CEO, Digital Workflow",
     },
     tags: ["creative"],
-    publishDate: "2025",
+    publishDate: "2024",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Fostering a Community of Innovation: Why Researchers Love Our Platform",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Join a vibrant community where innovation thrives. Our platform brings researchers together, fostering collaboration and creativity with user-friendly tools and supportive features. Experience the love and drive innovation forward.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Avinash chopra",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "CEO, Digital Workflow",
     },
     tags: ["computer"],
-    publishDate: "2025",
+    publishDate: "2024",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Maximizing Success: The Strategic Advantage of Our Research Management Platform",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Maximize your research success with our platform's strategic advantage. Streamline processes, leverage smart analytics, and elevate your projects with our state-of-the-art tools. Embrace the future of research management now.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Avinash chopra",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "CEO, Digital Workflow",
     },
     tags: ["design"],
-    publishDate: "2025",
+    publishDate: "2024",
   },
 ];
 export default blogData;

@@ -8,20 +8,14 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 2,
-    title: "About",
-    path: "/about",
+    id: 33,
+    title: "Blog",
+    path: "/blog",
     newTab: false,
   },
-  // {
-  //   id: 33,
-  //   title: "Blog",
-  //   path: "/blog",
-  //   newTab: false,
-  // },
   {
     id: 3,
-    title: "Support",
+    title: "Contact",
     path: "/contact",
     newTab: false,
   },
@@ -54,12 +48,12 @@ const menuData: Menu[] = [
   //       path: "/blog-sidebar",
   //       newTab: false,
   //     },
-  //     {
-  //       id: 45,
-  //       title: "Blog Details Page",
-  //       path: "/blog-details",
-  //       newTab: false,
-  //     },
+      // {
+      //   id: 45,
+      //   title: "Blog Details Page",
+      //   path: "/blog-details",
+      //   newTab: false,
+      // },
   //     {
   //       id: 46,
   //       title: "Sign In Page",
@@ -80,5 +74,11 @@ const menuData: Menu[] = [
   //     },
   //   ],
   // },
+  {
+    id: 2,
+    title: "About",
+    path: "/about",
+    newTab: false,
+  },
 ];
 export default menuData;
