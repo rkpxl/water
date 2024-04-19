@@ -34,6 +34,7 @@ const NewsLatterBox = ({ onClose = () => {} }) => {
         phoneNumber: data.phoneNumber,
         createdAt: new Date(),
       });
+      localStorage.setItem('userInfo', JSON.stringify({ name: data.name, email: data.email, phoneNumber: data.phoneNumber, createdAt: new Date()  }));
       console.log("Document written with ID: ", docRef.id);
     } catch (e) {
       console.error("Error adding document: ", e);

@@ -9,9 +9,12 @@ const EmailPopup = () => {
 
   useEffect(() => {
     // Set a timeout to show the popup after 5 seconds
-    const timer = setTimeout(() => {
-      setShowPopup(true);
-    }, 10000);
+    var timer;
+    if(!localStorage.getItem('userInfo')) {
+      timer = setTimeout(() => {
+        setShowPopup(true);
+      }, 10000);
+    }
 
     // Cleanup the timer on component unmount
     return () => clearTimeout(timer);
